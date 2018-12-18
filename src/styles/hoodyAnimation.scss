@@ -1,0 +1,98 @@
+.lh-home-container-animation {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background-image: url("../assets/resources/images/hoodybg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hoody-particles {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background-image: url("../assets/resources/images/hoodydots.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: translateY(0%);
+  animation: particles-up 40.0s linear both infinite;
+}
+.hoody-particles_2 {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background-image: url("../assets/resources/images/hoodydots.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: translateY(0%);
+  animation: particles-up-2 40.0s linear both infinite;
+}
+.hoody {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background-image: url("../assets/resources/images/hoody.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@-webkit-keyframes particles-up-2 {
+  0% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+  50% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  51% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+}
+@keyframes particles-up-2 {
+  0% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+  50% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  50.1% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes particles-up {
+  0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  100% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+@keyframes particles-up {
+  0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  100% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
